@@ -2,7 +2,7 @@
 from lib import wait_key as getch;
 from lib import go_up
 
-tesbih = ["SubhanAllah", "Elhamdülillah", "Allahuekber"];
+tesbih = ("SubhanAllah", "Elhamdülillah", "Allahuekber");
 
 def main():
 	for soyle in tesbih:
@@ -10,7 +10,7 @@ def main():
 			print(str(i+1)+":\t"+soyle);
 			go_up();
 			getch();
-			print("   ");
+			print(" " * (len(str(i+1)+":\t"+soyle)+4));
 			go_up();
 
 if __name__ == '__main__':
