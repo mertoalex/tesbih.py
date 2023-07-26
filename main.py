@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from lib import wait_key as getch;
-from lib import go_up
+from lib import go_up;
 
 tesbih = ("SubhanAllah", "Elhamdülillah", "Allahuekber");
 
